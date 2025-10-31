@@ -3,15 +3,33 @@
 
 #include <iostream>
 
+using namespace std;
+
+
 int main()
 {
-    int a, b, c;
-	std::cout << "Enter two numbers: ";
 
-	std::cin >> a >> b;
-	c = a + b;
-	std::cout << "Sum is: " << c << std::endl;	
-    std::cout << "Hello World!\n";
+	int sum = 0;
+	int A[] = { 2,4,6,7,9 };
+
+
+	for (int x : A)
+	{
+		sum = sum + x;
+		std::cout << x << std::endl;
+
+	}
+	std::cout << "sum is " << sum << std::endl;
+
+
+
+ //   int a, b, c;
+	//std::cout << "Enter two numbers: ";
+
+	//std::cin >> a >> b;
+	//c = a + b;
+	//std::cout << "Sum is: " << c << std::endl;	
+ //   std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
